@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.video-tools/
+.reference/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.aws/
+
+# Temporary files, caches and developer-specific state
+.cache/
+.vite/
+coverage/
+*.log
+*.tmp
+*.temp
+*.tsbuildinfo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
